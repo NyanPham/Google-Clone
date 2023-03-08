@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "@/components/Header"
 import { getProviders, signIn } from "next-auth/react"
+import Image from "next/image"
 
 export default function logIn({ providers }) {
     return (
@@ -12,10 +13,11 @@ export default function logIn({ providers }) {
                         key={provider.name}
                         className="flex flex-col items-center"
                     >
-                        <img
+                        <Image
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/220px-Google_2015_logo.svg.png"
                             alt="Google"
                             className="w-52 object-cover"
+                            width={208}
                         />
                         <p className="text-sm italic my-10 text-center">
                             This website is created for learning purposes
