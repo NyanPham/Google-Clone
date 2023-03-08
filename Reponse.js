@@ -940,4 +940,285 @@ const item = {
     ],
 }
 
-export default item
+const imagesItems = {
+    kind: "customsearch#search",
+    url: {
+        type: "application/json",
+        template:
+            "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json",
+    },
+    queries: {
+        request: [
+            {
+                title: "Google Custom Search - tailwindcss",
+                totalResults: "64100000",
+                searchTerms: "tailwindcss",
+                count: 10,
+                startIndex: 1,
+                inputEncoding: "utf8",
+                outputEncoding: "utf8",
+                safe: "off",
+                cx: "70736d584de6d4483",
+                searchType: "image",
+            },
+        ],
+        nextPage: [
+            {
+                title: "Google Custom Search - tailwindcss",
+                totalResults: "64100000",
+                searchTerms: "tailwindcss",
+                count: 10,
+                startIndex: 11,
+                inputEncoding: "utf8",
+                outputEncoding: "utf8",
+                safe: "off",
+                cx: "70736d584de6d4483",
+                searchType: "image",
+            },
+        ],
+    },
+    context: {
+        title: "Google clone Nyan",
+    },
+    searchInformation: {
+        searchTime: 0.185852,
+        formattedSearchTime: "0.19",
+        totalResults: "64100000",
+        formattedTotalResults: "64,100,000",
+    },
+    spelling: {
+        correctedQuery: "tailwind css",
+        htmlCorrectedQuery: "<b><i>tailwind css</i></b>",
+    },
+    items: [
+        {
+            kind: "customsearch#result",
+            title: "Tailwind CSS - Rapidly build modern websites without ever leaving ...",
+            htmlTitle:
+                "<b>Tailwind CSS</b> - Rapidly build modern websites without ever leaving ...",
+            link: "https://tailwindcss.com/_next/static/media/social-card-large.a6e71726.jpg",
+            displayLink: "tailwindcss.com",
+            snippet:
+                "Tailwind CSS - Rapidly build modern websites without ever leaving ...",
+            htmlSnippet:
+                "<b>Tailwind CSS</b> - Rapidly build modern websites without ever leaving ...",
+            mime: "image/jpeg",
+            fileFormat: "image/jpeg",
+            image: {
+                contextLink: "https://tailwindcss.com/",
+                height: 1280,
+                width: 2560,
+                byteSize: 95493,
+                thumbnailLink:
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYSWjBPi3in9Al2chAj97alz3FcGZw1xI1aMoK44ro43XHHMYZxk7bMQ&s",
+                thumbnailHeight: 75,
+                thumbnailWidth: 150,
+            },
+        },
+        {
+            kind: "customsearch#result",
+            title: "Tailwind CSS Starter Kit | Drupal.org",
+            htmlTitle: "<b>Tailwind CSS</b> Starter Kit | Drupal.org",
+            link: "https://www.drupal.org/files/project-images/screenshot_361.png",
+            displayLink: "www.drupal.org",
+            snippet: "Tailwind CSS Starter Kit | Drupal.org",
+            htmlSnippet: "<b>Tailwind CSS</b> Starter Kit | Drupal.org",
+            mime: "image/png",
+            fileFormat: "image/png",
+            image: {
+                contextLink: "https://www.drupal.org/project/tailwindcss",
+                height: 400,
+                width: 400,
+                byteSize: 7158,
+                thumbnailLink:
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQniGOFIc0T_Pxp6gVSF0zDGIbdKfIUgHYNI0CAlwzuQr76oorrLhnj5A&s",
+                thumbnailHeight: 124,
+                thumbnailWidth: 124,
+            },
+        },
+        {
+            kind: "customsearch#result",
+            title: "Brand - Tailwind CSS",
+            htmlTitle: "Brand - <b>Tailwind CSS</b>",
+            link: "https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg",
+            displayLink: "tailwindcss.com",
+            snippet: "Brand - Tailwind CSS",
+            htmlSnippet: "Brand - <b>Tailwind CSS</b>",
+            mime: "image/svg+xml",
+            fileFormat: "image/svg+xml",
+            image: {
+                contextLink: "https://tailwindcss.com/brand",
+                height: 489,
+                width: 800,
+                byteSize: 771,
+                thumbnailLink:
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6s9O0naopcA1i7hOoaMPsl53igJlanilJsrcBp2DS5ucRxFR8r55gIiA&s",
+                thumbnailHeight: 87,
+                thumbnailWidth: 143,
+            },
+        },
+        {
+            kind: "customsearch#result",
+            title: "GitHub - 20lives/tailwindcss-rtl: Enabling bidirectional support ...",
+            htmlTitle:
+                "GitHub - 20lives/<b>tailwindcss</b>-rtl: Enabling bidirectional support ...",
+            link: "https://repository-images.githubusercontent.com/253896588/f5315700-7aa7-11ea-9b72-7c3b13ab8eef",
+            displayLink: "github.com",
+            snippet:
+                "GitHub - 20lives/tailwindcss-rtl: Enabling bidirectional support ...",
+            htmlSnippet:
+                "GitHub - 20lives/<b>tailwindcss</b>-rtl: Enabling bidirectional support ...",
+            mime: "image/",
+            fileFormat: "image/",
+            image: {
+                contextLink: "https://github.com/20lives/tailwindcss-rtl",
+                height: 466,
+                width: 657,
+                byteSize: 219265,
+                thumbnailLink:
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMHBhiHhVmYfQOTp_fHJ8OuIifOR3zeFZUIYxBo64TGrD7shlcKIZu_A&s",
+                thumbnailHeight: 98,
+                thumbnailWidth: 138,
+            },
+        },
+        {
+            kind: "customsearch#result",
+            title: "How to Use Tailwind CSS to Rapidly Develop Snazzy Websites",
+            htmlTitle:
+                "How to Use <b>Tailwind CSS</b> to Rapidly Develop Snazzy Websites",
+            link: "https://kinsta.com/wp-content/uploads/2022/01/tailwind-css.jpg",
+            displayLink: "kinsta.com",
+            snippet:
+                "How to Use Tailwind CSS to Rapidly Develop Snazzy Websites",
+            htmlSnippet:
+                "How to Use <b>Tailwind CSS</b> to Rapidly Develop Snazzy Websites",
+            mime: "image/jpeg",
+            fileFormat: "image/jpeg",
+            image: {
+                contextLink: "https://kinsta.com/blog/tailwind-css/",
+                height: 730,
+                width: 1460,
+                byteSize: 37657,
+                thumbnailLink:
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx8WQEjLzHsxwNoMVlRTX54u5GtDclRAHAGPFZh524kVua4AqoHYisNMw&s",
+                thumbnailHeight: 75,
+                thumbnailWidth: 150,
+            },
+        },
+        {
+            kind: "customsearch#result",
+            title: "tailwindcss · GitHub Topics · GitHub",
+            htmlTitle: "<b>tailwindcss</b> · GitHub Topics · GitHub",
+            link: "https://repository-images.githubusercontent.com/106017343/7f21b24e-6744-4ca2-b035-4095a4ed3c1f",
+            displayLink: "github.com",
+            snippet: "tailwindcss · GitHub Topics · GitHub",
+            htmlSnippet: "<b>tailwindcss</b> · GitHub Topics · GitHub",
+            mime: "image/",
+            fileFormat: "image/",
+            image: {
+                contextLink: "https://github.com/topics/tailwindcss",
+                height: 1280,
+                width: 2560,
+                byteSize: 572646,
+                thumbnailLink:
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYr3bCtr6zQsvNxDgYcDuKulMp487821V0U4T1crAaS-hxVfPu0aIsHlg&s",
+                thumbnailHeight: 75,
+                thumbnailWidth: 150,
+            },
+        },
+        {
+            kind: "customsearch#result",
+            title: "Designing with Tailwind CSS",
+            htmlTitle: "Designing with <b>Tailwind CSS</b>",
+            link: "https://v1.tailwindcss.com/_next/static/media/workcation-screenshot.e15fad2353857da51319620da615ff93.jpg",
+            displayLink: "v1.tailwindcss.com",
+            snippet: "Designing with Tailwind CSS",
+            htmlSnippet: "Designing with <b>Tailwind CSS</b>",
+            mime: "image/jpeg",
+            fileFormat: "image/jpeg",
+            image: {
+                contextLink: "https://v1.tailwindcss.com/course",
+                height: 1059,
+                width: 1473,
+                byteSize: 159308,
+                thumbnailLink:
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_G2HsPrg1S6oU3TvAfubMUxncbGChfjrSGmuIlvbqu2CdyuQHoejukQ&s",
+                thumbnailHeight: 108,
+                thumbnailWidth: 150,
+            },
+        },
+        {
+            kind: "customsearch#result",
+            title: "UPDATED: Angular 11 and TailwindCSS 2 | by Jacob Neterer | Medium",
+            htmlTitle:
+                "UPDATED: Angular 11 and <b>TailwindCSS</b> 2 | by Jacob Neterer | Medium",
+            link: "https://miro.medium.com/max/800/1*biuS4Oexxtsih7_jtwJJyg.png",
+            displayLink: "jacobneterer.medium.com",
+            snippet:
+                "UPDATED: Angular 11 and TailwindCSS 2 | by Jacob Neterer | Medium",
+            htmlSnippet:
+                "UPDATED: Angular 11 and <b>TailwindCSS</b> 2 | by Jacob Neterer | Medium",
+            mime: "image/png",
+            fileFormat: "image/png",
+            image: {
+                contextLink:
+                    "https://jacobneterer.medium.com/angular-and-tailwindcss-2388fb6e0bab",
+                height: 480,
+                width: 800,
+                byteSize: 30594,
+                thumbnailLink:
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLG5fU-PjF1C6HXVdGtBLXevzUmiqwSv0dqRVwprpFJsRsQcwaPbR-6ro&s",
+                thumbnailHeight: 86,
+                thumbnailWidth: 143,
+            },
+        },
+        {
+            kind: "customsearch#result",
+            title: "bobthered/tailwindcss-palette-generator - npm",
+            htmlTitle: "bobthered/<b>tailwindcss</b>-palette-generator - npm",
+            link: "https://raw.githubusercontent.com/bobthered/tailwindcss-palette-generator/main/assets/logo-tailwindcss.png",
+            displayLink: "www.npmjs.com",
+            snippet: "bobthered/tailwindcss-palette-generator - npm",
+            htmlSnippet: "bobthered/<b>tailwindcss</b>-palette-generator - npm",
+            mime: "image/png",
+            fileFormat: "image/png",
+            image: {
+                contextLink:
+                    "https://www.npmjs.com/package/@bobthered/tailwindcss-palette-generator",
+                height: 1024,
+                width: 1024,
+                byteSize: 28206,
+                thumbnailLink:
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKJPfmiQpe6LL89L59MOOZs9dn64V8WgJIYpZOFph9PrPGhYPJmlziFCYb&s",
+                thumbnailHeight: 150,
+                thumbnailWidth: 150,
+            },
+        },
+        {
+            kind: "customsearch#result",
+            title: "Responsive design with TailwindCSS - DEV Community",
+            htmlTitle:
+                "Responsive design with <b>TailwindCSS</b> - DEV Community",
+            link: "https://res.cloudinary.com/practicaldev/image/fetch/s--4murvZ3J--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/dctau9dyp0hnxn6f0txh.png",
+            displayLink: "dev.to",
+            snippet: "Responsive design with TailwindCSS - DEV Community",
+            htmlSnippet:
+                "Responsive design with <b>TailwindCSS</b> - DEV Community",
+            mime: "image/png",
+            fileFormat: "image/png",
+            image: {
+                contextLink:
+                    "https://dev.to/developeraspire/responsive-design-with-tailwindcss-1j2a",
+                height: 900,
+                width: 1600,
+                byteSize: 19070,
+                thumbnailLink:
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO-3ebJdVhQgOXGRo3j1MuAOa7eODRGhgcwyFtUXT7tSvoIlKpPZfLPUw&s",
+                thumbnailHeight: 84,
+                thumbnailWidth: 150,
+            },
+        },
+    ],
+}
+
+export { imagesItems, item }
