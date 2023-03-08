@@ -10,11 +10,10 @@ export default function ImageResults({ results }) {
                     <div key={result.link} className="mt-8">
                         <div className="group">
                             <a href={result.image.contextLink}>
-                                <Image
+                                <img
                                     className="group-hover:shadow-xl w-full h-60 object-contain"
                                     src={result.link}
                                     alt={result.title}
-                                    height={60}
                                 />
                             </a>
                             <a

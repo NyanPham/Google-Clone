@@ -18,6 +18,7 @@ export default function logIn({ providers }) {
                             alt="Google"
                             className="w-52 object-cover"
                             width={208}
+                            height={74}
                         />
                         <p className="text-sm italic my-10 text-center">
                             This website is created for learning purposes
