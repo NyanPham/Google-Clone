@@ -1,6 +1,6 @@
 import SearchHeader from "@/components/SearchHeader"
 import Head from "next/head"
-import { item, imagesItems } from "@/Reponse"
+import { item, imagesItems } from "../Reponse"
 import SearchResult from "@/components/SearchResult"
 import { useRouter } from "next/router"
 import ImageResults from "@/components/ImageResults"
